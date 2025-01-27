@@ -19,7 +19,7 @@ body {
 
 /* Header Style */
 .header-wrapper {
-	background:blue; 
+	background:#444; 
 	color: #fff;
 	font-weight: 200;
 	font-size: 0.75em;	
