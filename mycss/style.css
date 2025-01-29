@@ -102,6 +102,7 @@ header .login-btn:hover{
      align-items: center;
     justify-content: center;
     min-height: 500px; /* set hero section to take a good amount of height */
+    background-size: cover;
 }
 
 .hero-content {
@@ -114,13 +115,15 @@ header .login-btn:hover{
     margin-bottom: 60px;
     color: whitesmoke;
     font-weight: 900;
+    text-align: start;
+    
 }
 
 .hero-content h2 {
     font-size: 1.1em;
     color: wheat;
      line-height: 1.4;
-     margin-top: 20%;
+     margin-top: 35%;
      font-weight:700 ;
 }
 /* added responsiveness */
@@ -161,11 +164,162 @@ header .login-btn:hover{
       header:hover nav {
         display: block;
     }}
+    .hero{
+    max-width: 1680px;
+
+    }
     
+  /* Gadiisa portion  */
    
-    
+    *{
+margin: 0;
+padding: 0;
+}
+/* .container.bannar{
+background-image:url(../img/photo_2025-01-28_06-52-46.jpg) ;
+
+} */ */
+section{
+display: block;
+unicode-bidi: isolate;
+}
+.what-we-item img{
+/* border: 9px solid; */
+height: auto;
+width: 100%;
+}
+
+.what-we{
+padding: 90px 0;
+}
+.what-we h2{
+font-size: 44px;
+color: #0a6375;
+font-weight: 900;
+text-align: center;
+/* margin-bottom: 60px; */
+}
+.container{
+max-width: 1680px;
+padding: 0 40px;
+
+}
+
+.what-we .what span{
+display: inline-block;
+position: relative;
+}
+/* .monthly-tuition .what-we-item{
+height: 10%;
+background-color: #92d151;
+}  */
+
+
+
+.what-we .what span::after{
+content: "";
+position: absolute;
+height: 12px;
+width: 100%;
+background-color: #92d151;
+left: 0;
+bottom: 5px;
+z-index: -1;
+
+
+}
+.what-we .what-we-item{
+/* text-align: center; */
+padding: 0 10px 10px;
+height: 100%;
+}
+.what-we .what-we-item p{
+color: #6b93aa;
+font-size: 16px;
+/* font-family: ; */
+}
+.what-we .what-we-item{
+background-color: #F0F0F0;
+font-size: 27px;
+font-weight: 700;
+color: #001b61;
+/* font-family: ; */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+
+.what-want {
+background-color: #F0F0F0;
+font-size: 27px;
+font-weight: 700;
+color: #001b61;
+/* font-family: ; */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.what-want .what-we-item p{
+color: #6b93aa;
+font-size: 16px;
+/* font-family: ; */
+}
+.what-want h2{
+font-size: 44px;
+color: #0a6375;
+font-weight: 900;
+text-align: center;
+/* margin-bottom: 60px; */
+}
+.what-want .what-looks span{
+display: inline-block;
+position: relative;
+}
+.what-looks .what-looks span::after{
+content: "";
+position: absolute;
+height: 12px;
+width: 100%;
+background-color: #92d151;
+left: 0;
+bottom: 5px;
+z-index: -1;
+
+
+}
+
+
+
+
+
+.monthly-tuition .mt-content h3 span{
+display: inline-block;
+background:aquamarine;
+padding: 4px 20px;
+border-radius: 25px 25px 0;
+color: #ff8924;
+}
+@media (min-width:768px)and (max-width:960px){
+ .monthly-tuition .mt-content h3{
+font-size: 35px;
+line: height 34px;
+}
+}
+.monthly-tuition row{
+/* color: #fff; */
+background-color:black;
+}
+.monthly-tuition{
+background: #DBDBDB;
+
+
+}
+.monthly-tuition .mt-img img{
+height: 100%;
+width: 100%;
+
+}
    
-    
+    /* Gadiisa portion  */
     
 
     
