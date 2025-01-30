@@ -984,7 +984,161 @@ width: 100%;
         .events-list h4 {
         font-weight: 900;
       }
+/* NEGESA */
+footer {
+    width: 100%;
+    position:absolute;
+    background-color: #008080; /* teal */
+    
+    font-size: 15px;
+    color: white;
+    border-top-left-radius: 125px;
+    bottom: 0;
+    line-height: 20px;
+    
+    
+}
 
+.footer-container {
+   max-width: 1200px;
+   display: inline;
+   align-items:end;
+   justify-content: space-between;
+   padding-right: 100%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   gap: 50px;
+   text-align: center;
+   
+}
+ .footer div { 
+    text-align: center;
+ }
+
+footer h2 {
+    margin-top: 0; /* removing margins for titles */
+    color: #333;
+    font-size: 2em;
+}
+footer h3 {
+    margin-top: 0; /* removing margins for titles */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer ul {
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+}
+footer li {
+    margin-bottom: 8px;
+}
+
+/* Newsletter */
+.newsletter {
+    width: 40%;
+     background-color: #F0E6D3; /* matches the newsletter background color */
+    color: #333;
+    padding: 20px;
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-top: -100px;
+     position: relative; /* to keep the background from going outside the footer*/
+}
+.email-form {
+    display: flex;
+    margin-top: 15px;
+     gap: 5px; /* adding gap between input and button */
+}
+
+.email-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-grow: 1; /* making the input fill the container */
+   outline: none;
+}
+
+.subscribe-btn {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    white-space: nowrap; /* keep text on one line*/
+}
+/* Footer Links */
+.footer-links {
+   display: flex;
+   
+   gap: 30px;
+    width: 55%;
+     justify-content: space-between;
+     margin: 0 auto;
+     font-size: larger;
+}
+/* Marvel Academy */
+.marvel-academy p {
+    margin-top: 0;
+    max-width: 200px; /* limiting the width of the text */
+     line-height: 1.5;
+}
+.social-links ul li  {
+    display: inline;
+    gap: 10px;
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+.social-links a {
+
+    color: white;
+}
+/* Copyright Footer */
+
+.copyright {
+    background-color: #007171; /* slightly darker than teal*/
+}
+.copyright-container {
+   display: flex;
+  justify-content: space-between;
+   align-items: center;
+  padding: 10px 0; /* add padding to top and bottom */
+}
+.copyright p {
+    margin: 0; /* remove default margin */
+}
+/* added responsiveness */
+@media (max-width: 768px) {
+  .footer-container {
+       flex-direction: column;
+   }
+   .newsletter {
+       width: 100%;
+       margin-top: 0;
+       margin-bottom: 20px;
+   }
+   .footer-links {
+       flex-direction: column;
+       gap: 20px;
+       width: 100%;
+    }
+      .marvel-academy p {
+        max-width: 100%; /* allow text to wrap on smaller screens */
+    }
+    .copyright-container {
+       flex-direction: column;
+        text-align: center; /* center text on smaller screens */
+         gap: 4px;
+   }
+}
     
 
 
