@@ -870,6 +870,120 @@ width: 100%;
     }
 
     /* dave */
+    .events-section {
+        padding: 50px;
+        background-color: #f9f9f9; /* Light gray background */
+        text-align: center;
+        margin: 20px auto;
+        /* max-width: 1000px; */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 1680px;
+    
+    
+      }
+    
+    
+      
+      .events-section h3 {
+        font-size: 2rem;
+        /* color: #0047AB; */
+        margin-bottom: 20px;
+        color: darkorange;
+      }
+      
+      .events-section p {
+        font-size: 1.4rem;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: px;
+        /* color:  blue; */
+    
+      }
+      
+      .events-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+         /* Responsive grid */
+        gap: 20px;
+        justify-content: center;
+         /* color: #ffffff; */
+         height:  400px;
+      }
+      
+      .event-card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      
+      .event-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      
+      .event-card h4 {
+        font-size: 1.3rem;
+        /* color: #003580; */
+        margin-bottom: 10px;
+        /* color: #ffffff; */
+         color: #FFD700;
+        font-weight: 900;
+    
+    
+      }
+      
+      .event-card p {
+        font-size: 0.95rem;
+        /* color: #555; */
+        line-height: 1.6;
+        color: #FFFFFF;
+        
+      }
+      
+      .event-card strong {
+        color: #000;
+      }
+      .innovation-wrapper{
+        background-image: url(Image/culture-mixed.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    
+        
+      }
+      .sport-wrapper{
+        background-image: url(Image/sport-photo-3\ \(2\).jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    
+        
+        
+    
+      }
+      .talent-wrapper{
+        background-image: url(Image/photo_2024-09-02_05-05-30.jpg);
+        background-position: center;
+        height: 100%;
+         
+         width: 100%;
+      background-size: cover;
+      }
+      .events-section{
+        height:1680px ;
+    
+      }
+      .events-section .title{
+          color: green;
+      }
+     
+        .events-list h4 {
+        font-weight: 900;
+      }
 
     
 
