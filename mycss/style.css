@@ -878,7 +878,7 @@ width: 100%;
         /* max-width: 1000px; */
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        height: 1680px;
+        height: px;
     
     
       }
@@ -948,33 +948,30 @@ width: 100%;
         color: #000;
       }
       .innovation-wrapper{
-        background-image: url(Image/culture-mixed.jpg);
+        background-image: url(../image/images/innovation-image.jpg);
         background-position: center;
         background-size: cover;
-        height: 100%;
+       
     
         
       }
       .sport-wrapper{
-        background-image: url(Image/sport-photo-3\ \(2\).jpg);
+        background-image: url(../image/myImage/sport-photo-3\ \(2\).jpg);
         background-position: center;
         background-size: cover;
-        height: 100%;
+        / 
     
-        
-        
-    
-      }
+        }
       .talent-wrapper{
-        background-image: url(Image/photo_2024-09-02_05-05-30.jpg);
+        background-image: url(../image/images/innovation-4.jpg);
         background-position: center;
-        height: 100%;
+         
          
          width: 100%;
       background-size: cover;
       }
       .events-section{
-        height:1680px ;
+        
     
       }
       .events-section .title{
@@ -987,7 +984,7 @@ width: 100%;
 /* NEGESA */
 footer {
     width: 100%;
-    position:absolute;
+    /* position:absolute; */
     background-color: #008080; /* teal */
     
     font-size: 15px;
