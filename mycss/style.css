@@ -14,6 +14,7 @@ header {
     background-color: white;
     padding: 10px 0;
     border-bottom: 1px solid #ddd; /* Add a subtle bottom border */
+    position: static;
 }
 
 header .container {
@@ -26,9 +27,14 @@ header .logo {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color:white;
 }
-
+header{
+    background-color:teal;
+}
+.logo:hover{
+    background-color: black;
+}
 header nav ul {
     list-style: none;
     padding: 0;
@@ -42,7 +48,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white
 }
 
 /* Dropdown Styling */
@@ -80,45 +86,45 @@ header .login-btn {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-	cursor: pointer;
+  cursor: pointer;
     font-size: 1em;
+}
+header .login-btn:hover{
+    background-color: black;
 }
 
 /* Hero Section */
 .hero {
+    background-image: url(/image/image\ copy\ 2.png);
     background-color: teal;
     padding: 50px 0;
      display: flex;
      align-items: center;
     justify-content: center;
     min-height: 500px; /* set hero section to take a good amount of height */
+    background-size: cover;
 }
 
 .hero-content {
-    width: 50%;
+    width: 60%;
      padding-right: 20px; /* adding space to make it look more like the picture */
 }
 
 .hero-content h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom: 60px;
+    color: whitesmoke;
+    font-weight: 900;
+    text-align: start;
+    
 }
 
-.hero-content p {
+.hero-content h2 {
     font-size: 1.1em;
-    color: white;
+    color: wheat;
      line-height: 1.4;
-}
-.hero-image {
-    width: 35%;
-}
-.hero-image img {
-    max-width: 100%; /* image never stretches more than 100% of its container */
-    border-radius: 80px 80px 0 0 ; /* matches corner styling */
-     /* matches the arc of the styling */
-      object-fit: cover;
-      max-height: 1000px;
+     margin-top: 35%;
+     font-weight:700 ;
 }
 /* added responsiveness */
 @media (max-width: 768px) {
@@ -155,16 +161,981 @@ header .login-btn {
         margin-bottom: 100px;
         border-radius: 30px;
     }
-    .hero-image {
-        width: 95%;
-    }
       header:hover nav {
         display: block;
-    }
-   
-    
-    
+    }}
+    .hero{
+    max-width: 1680px;
 
+    }
+    
+  /* Gadiisa portion  */
+   
+    *{
+margin: 0;
+padding: 0;
+}
+/* .container.bannar{
+background-image:url(../img/photo_2025-01-28_06-52-46.jpg) ;
+
+} */ */
+section{
+display: block;
+unicode-bidi: isolate;
+}
+.what-we-item img{
+/* border: 9px solid; */
+height: auto;
+width: 100%;
+}
+
+.what-we{
+padding: 90px 0;
+}
+.what-we h2{
+font-size: 44px;
+color: #0a6375;
+font-weight: 900;
+text-align: center;
+/* margin-bottom: 60px; */
+}
+.container{
+max-width: 1680px;
+padding: 0 40px;
+
+}
+
+.what-we .what span{
+display: inline-block;
+position: relative;
+}
+/* .monthly-tuition .what-we-item{
+height: 10%;
+background-color: #92d151;
+}  */
+
+
+
+.what-we .what span::after{
+content: "";
+position: absolute;
+height: 12px;
+width: 100%;
+background-color: #92d151;
+left: 0;
+bottom: 5px;
+z-index: -1;
+
+
+}
+.what-we .what-we-item{
+/* text-align: center; */
+padding: 0 10px 10px;
+height: 100%;
+}
+.what-we .what-we-item p{
+color: #6b93aa;
+font-size: 16px;
+/* font-family: ; */
+}
+.what-we .what-we-item{
+background-color: #F0F0F0;
+font-size: 27px;
+font-weight: 700;
+color: #001b61;
+/* font-family: ; */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+
+.what-want {
+background-color: #F0F0F0;
+font-size: 27px;
+font-weight: 700;
+color: #001b61;
+/* font-family: ; */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.what-want .what-we-item p{
+color: #6b93aa;
+font-size: 16px;
+/* font-family: ; */
+}
+.what-want h2{
+font-size: 44px;
+color: #0a6375;
+font-weight: 900;
+text-align: center;
+/* margin-bottom: 60px; */
+}
+.what-want .what-looks span{
+display: inline-block;
+position: relative;
+}
+.what-looks .what-looks span::after{
+content: "";
+position: absolute;
+height: 12px;
+width: 100%;
+background-color: #92d151;
+left: 0;
+bottom: 5px;
+z-index: -1;
+
+
+}
+
+
+
+
+
+.monthly-tuition .mt-content h3 span{
+display: inline-block;
+background:aquamarine;
+padding: 4px 20px;
+border-radius: 25px 25px 0;
+color: #ff8924;
+}
+@media (min-width:768px)and (max-width:960px){
+ .monthly-tuition .mt-content h3{
+font-size: 35px;
+line: height 34px;
+}
+}
+.monthly-tuition row{
+/* color: #fff; */
+background-color:black;
+}
+.monthly-tuition{
+background: #DBDBDB;
+
+
+}
+.monthly-tuition .mt-img img{
+height: 100%;
+width: 100%;
+
+}
+   
+    /* Gadiisa portion  */
+    /* dave */
+    
+    body{
+        background-color:rgb(240, 240,240);
+    }
+    .marvel{
+        text-align: center;
+        font-size:50px;
+        
+    }
+    .kkkk{
+        text-align: center;
+    }
+    .first-2{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .first{
+        background-color: #444;
+        color: white;
+        position: sticky;
+        height: 150px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 30px;
+      
+    }
+    .wowo{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .SECT-1{
+        background-color: white;
+        height:200px ;
+        margin-top: 90px;
+        margin-bottom:30px;
+    }
+    .SECT-2{
+        background-color: white;
+        height:200px ;
+        margin-top: 40px;
+        margin-bottom:30px;
+    }
+    .SECT-3{
+        background-color: white;
+        height:235px ;
+        margin-top: 40px;
+        margin-bottom:30px;
+    }
+    .SECT-4{
+        background-color: white;
+        height:235px ;
+        margin-top: 40px;
+        margin-bottom:30px;
+    }
+    .SECT-5{
+        background-color: white;
+        height:200px ;
+        margin-top: 40px;
+        margin-bottom:30px;
+    }
+    .TEACH{
+        height:200px;
+        width:400px ;
+        position: absolute;
+        right:120px;
+        border-radius:20px;
+    }
+    .fixed{
+        height: 200px;
+        width: 500px;
+        background-color:#444;
+        color: white;
+        position: relative;
+        left: 120px;
+        text-align: center;
+        border-radius:20px;
+    }
+    .fixed-1{
+        height: 200px;
+        width: 500px;
+        background-color: #444;
+        color: white;
+        position: relative;
+        left: 120px;
+        border-radius:20px;
+    }
+    .fixed-2{
+        height: 230px;
+        width: 500px;
+        background-color: #444;
+        color: white;
+        position: relative;
+        left: 120px;
+        border-radius:20px;
+    }
+    .fixed-3{
+        height: 230px;
+        width: 500px;
+        background-color: #444;
+        color: white;
+        position: relative;
+        left: 120px;
+        border-radius:20px;
+    }
+    .fixed-4{
+        height: 200px;
+        width: 500px;
+        background-color: #444;
+        color: white;
+        position: relative;
+        left: 120px;
+        border-radius:20px;
+    }
+    .fixed-5{
+        height: 200px;
+        width: 500px;
+        background-color: #444;
+        color: white;
+        position: relative;
+        left: 120px;
+        border-radius:20px;
+    }
+    .TEACH-1{
+        height:200px;
+        width:400px ;
+        position: absolute;
+        right:120px;
+        border-radius:20px;
+    }
+    #Academy{
+        text-align: center;
+    }
+    #faculty{
+        text-align: center;
+    }
+    #fixedfixed{
+        text-align: center;
+    }
+    #resource{
+        text-align: center;
+    }
+    #achievment{
+        text-align: center;
+    }
+    #proud{
+        text-align: center;
+    }
+    /*
+    
+    .academy{
+        background-color:white;
+        
+        width:800px ;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: 210px;
+        border-radius: 50px;
+    }
+    .nono{
+        height: 300px;
+        width: 800px;
+        border-radius:50px;
+    }
+    .in{
+        padding-top: 30px;
+    }
+    .nnn{
+        box-sizing: border-box;
+        color: rgb(0, 27, 97);
+        display: block;
+        text-align: center;
+        font-family: Nunito, sans-serif;
+        font-size:20px;
+        font-weight: 900px;
+        line-height:  42px;
+        
+        
+    }
+    .student{
+        border-radius:50px;
+        height:200px;
+        width: 200px;
+        position: relative;
+        top: 10px;
+        right:30px;
+        
+    }
+    .all{
+        height: 1000px;
+    }
+    .teacher{
+        border-radius:50px;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 10px;
+        right: 30px;
+    }
+    .teach{
+        border-radius: 50px;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 10px;
+        
+    }
+    .all{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .padd{
+        padding-left: 100px;
+        padding-right:100px;
+        
+    }
+    .mar{
+        padding-left: 100px;
+        padding-right:100px
+    }
+    .marge{
+        padding-left: 100px;
+        padding-right:100px
+    }
+    .mmm{
+        background-color:white;
+        border-radius: 20px;
+        height: 500px;
+        width: 350px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right:15px ;
+    }
+    .ccc{
+        background-color:white;
+        border-radius: 20px;
+        height: 500px;
+        width: 350px;
+        text-align: center;
+        padding-left:15px ;
+        padding-right:15px ;
+    }
+    .iii{
+        padding-right: 20px;
+    }
+    
+    .ddd{
+        background-color:white;
+        height: 400px;
+        width: 300px;
+        position:absolute;
+        top: 1200px;
+        left:60px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .uuuuu{
+        height:150px ;
+        width:300px ;
+        border-radius: 30px;
+    }
+    .uuuu{
+        height:150px ;
+        width:300px ; 
+        border-radius: 30px;
+    }
+    .DDD{
+        color: rgb(0, 27, 97);
+    }
+    .DDD1{
+        color: rgb(0, 27, 97);
+    }
+    .Have{
+        color: rgb(107, 147, 170);
+    }
+    .Have-1{
+        color: rgb(107, 147, 170);
+    }
+    .ddd1{
+        background-color:white;
+        height: 413px;
+        width: 300px;
+        position:absolute;
+        top: 1200px;
+        left:450px;
+        
+        padding-left: 80px;
+    }
+    /*.small-ddd1{
+        background-color: black;
+        height: 10px;
+        width: 10px;
+        position: relative;
+        top:200px;
+        left: 100px;
+    
+    }
+    .sprt1{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt2{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt3{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt4{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt5{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt6{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt7{
+        height:100px ;
+        width:120px ;
+    }
+    .sprt8{
+        height:100px ;
+        width:120px ;
+    }
+    .ddd2{
+        background-color:white;
+        height: 400px;
+        width: 300px;
+        position:absolute;
+        top: 1200px;
+        left:900px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .iii{
+        background-color:white;
+        border-radius: 20px;
+        height: 500px;
+        width: auto;
+        text-align: center;
+        padding-left:15px ;
+        padding-right:15px ;
+    }
+    .para{
+        color: rgb(107, 147, 170);
+        font-family: "Balsamiq Sans", cursive;
+    }
+    .parag{
+        color: rgb(107, 147, 170);
+        font-family: "Balsamiq Sans", cursive;
+    }
+    .paragraph{
+        color: rgb(107, 147, 170);
+        font-family: "Balsamiq Sans", cursive;
+    }
+    .head{
+        color: rgb(0, 27, 97) ;
+    }
+    .hea{
+        color: rgb(0, 27, 97) ;
+    }
+    .hair{
+        color: rgb(0, 27, 97) ;
+    }
+    .top{
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*section-3 css*/
+    /*.cont2{
+        height: 1000px;
+        width: 1275px;
+        background-color:rgb(8, 104, 106);
+        padding-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+        
+       
+    
+    }
+    .baby1{
+        height: 150px;
+        width: 300px;
+       
+    }
+    .courses{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .class1{
+        background-color: white;
+        height:550px ;
+        width:300px ;
+        border-radius: 15px;
+        margin-right: 15px;
+        
+        
+    }
+    .class2{
+        background-color: white;
+        height:550px ;
+        width:300px ;
+        border-radius: 15px;
+        margin-right: 15px;
+    }
+    .class3{
+        background-color: white;
+        height:550px ;
+        width:300px ;
+        border-radius: 15px;
+        margin-right: 15px;
+    }
+    .class4{
+        background-color: white;
+        height:550px ;
+        width:300px ;
+        border-radius: 15px;
+    }
+    .pppp{
+        color: rgb(80, 80, 80);
+    
+    }
+    .css1{
+        
+        padding-right:30px ;
+        padding-left:30px ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 137, 36);
+        font-weight: bold;
+        font-family: "Balsamiq Sans", cursive;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .css1:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .css2{
+        padding-right:30px ;
+        padding-left:30px ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 137, 36);
+        font-weight: bold;
+        font-family: "Balsamiq Sans", cursive;
+        font-size: 16px;
+        margin-top: 28px;
+    }
+    .css2:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .css3{
+        padding-right:30px ;
+        padding-left:30px ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 137, 36);
+        font-weight: bold;
+        font-family: "Balsamiq Sans", cursive;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+    .css3:hover{
+        color: black;
+        cursor: pointer;
+    }
+    .css4{
+        padding-right:30px ;
+        padding-left:30px ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 137, 36);
+        font-weight: bold;
+        font-family: "Balsamiq Sans", cursive;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+    .css4:hover{
+        color: black;
+        cursor: pointer;
+    }
+
+    /* dave */
+    .events-section {
+        padding: 50px;
+        background-color: #f9f9f9; /* Light gray background */
+        text-align: center;
+        margin: 20px auto;
+        /* max-width: 1000px; */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: px;
+    
+    
+      }
+    
+    
+      
+      .events-section h3 {
+        font-size: 2rem;
+        /* color: #0047AB; */
+        margin-bottom: 20px;
+        color: darkorange;
+      }
+      
+      .events-section p {
+        font-size: 1.4rem;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: px;
+        /* color:  blue; */
+    
+      }
+      
+      .events-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+         /* Responsive grid */
+        gap: 20px;
+        justify-content: center;
+         /* color: #ffffff; */
+         height:  400px;
+      }
+      
+      .event-card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      
+      .event-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      
+      .event-card h4 {
+        font-size: 1.3rem;
+        /* color: #003580; */
+        margin-bottom: 10px;
+        /* color: #ffffff; */
+         color: #FFD700;
+        font-weight: 900;
+    
+    
+      }
+      
+      .event-card p {
+        font-size: 0.95rem;
+        /* color: #555; */
+        line-height: 1.6;
+        color: #FFFFFF;
+        
+      }
+      
+      .event-card strong {
+        color: #000;
+      }
+      .innovation-wrapper{
+        background-image: url(../image/images/innovation-image.jpg);
+        background-position: center;
+        background-size: cover;
+       
+    
+        
+      }
+      .sport-wrapper{
+        background-image: url(../image/myImage/sport-photo-3\ \(2\).jpg);
+        background-position: center;
+        background-size: cover;
+        / 
+    
+        }
+      .talent-wrapper{
+        background-image: url(../image/images/innovation-4.jpg);
+        background-position: center;
+         
+         
+         width: 100%;
+      background-size: cover;
+      }
+      .events-section{
+        
+    
+      }
+      .events-section .title{
+          color: green;
+      }
+     
+        .events-list h4 {
+        font-weight: 900;
+      }
+/* NEGESA */
+footer {
+    width: 100%;
+    position:absolute;
+    background-color: #008080; /* teal */
+    
+    font-size: 15px;
+    color: white;
+    border-top-left-radius: 125px;
+    bottom: 0;
+    line-height: 20px;
+    
+    
+}
+
+.footer-container {
+   max-width: 1200px;
+   display: inline;
+   align-items:end;
+   justify-content: space-between;
+   padding-right: 100%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   gap: 50px;
+   text-align: center;
+   
+}
+ .footer div { 
+    text-align: center;
+ }
+
+footer h2 {
+    margin-top: 0; /* removing margins for titles */
+    color: #333;
+    font-size: 2em;
+}
+footer h3 {
+    margin-top: 0; /* removing margins for titles */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer ul {
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+}
+footer li {
+    margin-bottom: 8px;
+}
+
+/* Newsletter */
+.newsletter {
+    width: 40%;
+     background-color: #F0E6D3; /* matches the newsletter background color */
+    color: #333;
+    padding: 20px;
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-top: -100px;
+     position: relative; /* to keep the background from going outside the footer*/
+}
+.email-form {
+    display: flex;
+    margin-top: 15px;
+     gap: 5px; /* adding gap between input and button */
+}
+
+.email-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-grow: 1; /* making the input fill the container */
+   outline: none;
+}
+
+.subscribe-btn {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    white-space: nowrap; /* keep text on one line*/
+}
+/* Footer Links */
+.footer-links {
+   display: flex;
+   
+   gap: 30px;
+    width: 55%;
+     justify-content: space-between;
+     margin: 0 auto;
+     font-size: larger;
+}
+/* Marvel Academy */
+.marvel-academy p {
+    margin-top: 0;
+    max-width: 200px; /* limiting the width of the text */
+     line-height: 1.5;
+}
+.social-links ul li  {
+    display: inline;
+    gap: 10px;
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+.social-links a {
+
+    color: white;
+}
+/* Copyright Footer */
+
+.copyright {
+    background-color: #007171; /* slightly darker than teal*/
+}
+.copyright-container {
+   display: flex;
+  justify-content: space-between;
+   align-items: center;
+  padding: 10px 0; /* add padding to top and bottom */
+}
+.copyright p {
+    margin: 0; /* remove default margin */
+}
+/* added responsiveness */
+@media (max-width: 768px) {
+  .footer-container {
+       flex-direction: column;
+   }
+   .newsletter {
+       width: 100%;
+       margin-top: 0;
+       margin-bottom: 20px;
+   }
+   .footer-links {
+       flex-direction: column;
+       gap: 20px;
+       width: 100%;
+    }
+      .marvel-academy p {
+        max-width: 100%; /* allow text to wrap on smaller screens */
+    }
+    .copyright-container {
+       flex-direction: column;
+        text-align: center; /* center text on smaller screens */
+         gap: 4px;
+   }
+}
     
 
 
