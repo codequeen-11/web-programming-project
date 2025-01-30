@@ -1115,7 +1115,7 @@ footer li {
 /* added responsiveness */
 @media (max-width: 768px) {
   .footer-container {
-       flex-direction: column;
+       /* flex-direction: column; */
    }
    .newsletter {
        width: 100%;
@@ -1136,6 +1136,96 @@ footer li {
          gap: 4px;
    }
 }
+/* form */
+
+
+.form-registration{
+    background-color:teal;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .Signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    /* margin-top: 20px; */
+    background-color: white;
+    border-radius: 10px;
+
+  }
+  .login-box{
+    width: 4000px;
+    height: 300px;
+    margin: auto;
+    border-radius: 25px;
+    background-color: teal;
+    text-align: center;
+    margin-right: 20%;
+  }
+  h1{
+    text-align: center;
+    padding-top: 15px;
+    color: black
+  }
+  h4{
+    text-align: center;
+    color: black;
+  }
+  form{
+    width: 300px;
+    margin-left: 20px;
+  }
+  form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+  }
+  form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c149;
+    color: white;
+    font-size: 18px;
+  }
+  p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #000;
+    margin-top: 5%;
+  }
+  a{
+    /* color: #000; */
+  }
+  .para-2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a{
+    color: #49c1a2;
+  }
+  .login-box{
+    width: 360px;
+    height: 280px;
+    margin-right: 20%;
+    border-radius: 3px;
+    background-color: teal;
+  }
+
     
 
 
