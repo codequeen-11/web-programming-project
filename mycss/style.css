@@ -984,7 +984,7 @@ width: 100%;
 /* NEGESA */
 footer {
     width: 100%;
-    position:absolute;
+    /* position:absolute; */
     background-color: #008080; /* teal */
     
     font-size: 15px;
