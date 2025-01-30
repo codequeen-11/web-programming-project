@@ -1100,8 +1100,7 @@ footer li {
        flex-direction: column;
         text-align: center; /* center text on smaller screens */
          gap: 4px;
-   }
-}
+}}
 /* form */
 
 
